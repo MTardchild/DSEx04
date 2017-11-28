@@ -15,7 +15,7 @@ RES DQ 0
     xor ecx, ecx
     mov ebx, [%2]
     CALM_AND_COLLECTED_MULTIPLICATION:
-    adc eax, [%1]
+    add eax, [%1]
     jnc NO_ONE_CARRIES_YOU_TODAY_SCRUB
     add ecx, 1
     NO_ONE_CARRIES_YOU_TODAY_SCRUB:
